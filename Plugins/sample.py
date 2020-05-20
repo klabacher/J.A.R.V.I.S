@@ -1,7 +1,7 @@
-from boot import EH
+from Plugins import EH
 print("SAMPLE")
 
-@EH.register("sample")
+@EH.register("d")
 def sample(jarvis):
     print("SAMPLE DEF")
 

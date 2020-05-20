@@ -2,11 +2,11 @@ from threading import Thread
 from queue import Queue  # Python 3 import
 import Filter
 import speech_recognition as sr
-from Utils import EventHandler, PluginLoader
 import ThreadMain
+import Plugins
 
-PL = PluginLoader()
-EH = EventHandler()
+
+#PL = Utils.PluginLoader()
 
 r = sr.Recognizer()
 audio_queue = Queue()
